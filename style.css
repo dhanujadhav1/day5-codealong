@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+    
+}
+.box{
+    height: 60px;
+    width: 60px;
+    border: 5px solid black;
+    font-size: large;
+    font-weight: 600 ;
+    text-align: center;
+}
+.button{
+    position: absolute;
+    top: 600px;
+    left:100px;
+}
+button{
+    height:40px;
+    width: 100px;
+}
+body{
+    background-color: cornflowerblue;
+}
